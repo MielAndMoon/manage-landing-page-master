@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-    .wrapper {
-        @apply w-[90%] mx-auto overflow-hidden max-w-screen-xl
-    }
+  .wrapper {
+    @apply w-[90%] mx-auto overflow-hidden max-w-screen-xl;
+  }
+
+  .button {
+    @apply bg-bright-red text-very-light-gray block w-max py-4 px-12 rounded-full;
+  }
 }
