@@ -78,7 +78,7 @@ module.exports = {
 
 Here, set a custom font family and new colors.
 
-Another thing was being able to add custom classes, either using the Tailwindcss utility classes with the @apply directive so I could apply the styles to my custom class or adding my own styles.
+Another thing was being able to add custom classes, either using the Tailwindcss utility classes with the `@apply` directive so I could apply the styles to my custom class or adding my own styles.
 
 ```css
 @layer components {
